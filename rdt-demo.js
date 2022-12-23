@@ -4,7 +4,7 @@ const redux = require("@reduxjs/toolkit");
 
 // Step 2: Create Reducer:  You can think of a reducer as an event listener which handles events based on the received action (event) type.
 // Note give state a default value that will be executed the first time the app runs
-// Note: The action is the object which was dipatched
+// Note: The action is the object which was dispatched
 const counterReducer = ( state = { counter: 0, name: "John Doe" }, action) => {
   console.log("Action:", action);
   console.log("Action State:", state)
@@ -71,7 +71,7 @@ const nameAction = (value) => {
   };
 
 // Step 5: Dispatch an action than will change the store's data
-store.dispatch(counterAction(-3));
+store.dispatch(counterAction());
 store.dispatch(nameAction("Tony Lockhart"));
 
 // Step 6: Execute file
