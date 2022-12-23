@@ -1,0 +1,24 @@
+{
+  "name": "academind-react-guide-redux",
+  "version": "1.0.0",
+  "description": "Demonstrates how to use redux in an application",
+  "main": "redux-demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlockhart/Academind-React-Guide-Redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlockhart/Academind-React-Guide-Redux/issues"
+  },
+  "homepage": "https://github.com/tlockhart/Academind-React-Guide-Redux#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "redux": "^4.2.0"
+  }
+}
